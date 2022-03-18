@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="trabalhano com html para devs iniciantes tags e propriedades">
+        <meta name="author" content="Giovanni - giovanniblaner@gmail.com, George Peralta - lucas.peralta15@gmail.com,
+         Ramon - mocellinramon@gmail.com, Daniel - danielalcantara20683@gmail.com">
+        <meta name="keywords" content="HTML, CSS, web-design, Dev, tags">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="sortcut icon" type="image/x-icon" href="img/favicon.ico">
+        <title>pagina de ajuda para devs que estao iniciando tags HTML, css e javascript</title>
+
+        <!-- esse nao ta lincado mas funciona igualmente pelo link bootstrap 4.5  -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+        <!-- resolvi lincar pra dar pra visualizar pelo cell  -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+		<script src="js/script.js"></script>
+    </head>
+<body id="galeria">
+    <main class="geral container-fluid">
+        <header class="jumbotron mb-0 mt-1 container-fluid">
+            <img src="img/logo.png" alt="logo do dev aprendiz">
+        </header>
+        <!-- fim do header  -->
+
+        <!-- inicio do nav  -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Welcome</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="conteudohtml.html">HTML</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link active" href="pagcss.html">CSS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="galeria.html">Galeria</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <!-- fim do nav  -->
+
+          <section class="sectionindex container-fluid">
+            <h1 class="text-center mt-5 mb-5">CSS</h1>
+            <h2 class="col-md-9 col-sm-12 col-xs-12">O que é <span class="forte">CSS</span> ?</h2><br>
+			<div class="container-fluid imgs text-center mb-5">
+				<img class="img-responsive col-md-6 col-sm-6 col-xs-12 " src="img/sintonia.png" alt="css">
+				<img class="img-responsive col-md-5 col-sm-6 col-xs-12 " src="img/htmlcss.png" alt="css">
+			</div>
+            <ul>
+              <li><strong>CSS</strong> significa <strong>C</strong>ascading <strong>S</strong>tyle <strong>S</strong>hetts que em português foi traduzido para folhas de estilo em cascata e nada mais é, que um documento onde são definidas regras de fomatação ou de estilos, a serem aplicadas aos elementos da marcação de um documento HTML. </li>
+              <li><strong>CSS</strong> descreve como os elementos <strong>HTML</strong> devem ser exibidos na tela, no papel ou em outra mídia. </li>
+              <li><strong>CSS</strong> economiza muito trabalho . Ele pode controlar o layout de várias páginas da web de uma só vez.</li>
+              <li>Folhas de estilo externas são armazenadas em <strong>arquivos CSS</strong>.</li>
+            </ul><br>
+            <h2 class="col-md-9 col-sm-12 col-xs-12">Porque devo usar <span class="forte">CSS</span>?</h2><br>
+            <p>CSS permite que você retire da marcação HTML toda a formatação (apresentação) do documento WEB. Quem vai determinar cores, formas, tipos e tamanhos, posicionamento e em fim todo o "visual" da página são as CSS. As vantagens estão relatadas nas respostas a seguir.</p>
+            <h2 class="col-md-9 col-sm-12 col-xs-12"><span class="forte">CSS</span> economiza muito trabalho!</h2><br>
+            <p>As definições de estilo são normalmente salvas em arquivos .css externos.</p>
+            <p>Com um arquivo de folha de estilo externo, você pode alterar a aparência de um site inteiro alterando apenas um arquivo!</p>
+
+            <h2 class="col-md-9 col-sm-12 col-xs-12">Quais as vantagens de se usar <span class="forte">CSS</span>?</h2><br>
+            <p>Inúmeras são as vantagens do uso das CSS nos documentos Web. Eis uma relação das principais:</p>
+            <ul>
+              <li>controle total sôbre a apresentação do site a partir de um arquivo central;</li>
+              <li>agilização da manutenção e redesign do site;</li>
+              <li>saida para diferentes tipos de mídia a partir de uma versão única de HTML;</li>
+              <li>redução do tempo de carga dos documentos Web;</li>
+              <li>adequação simplificada aos critérios de acessibilidade e usabilidade;</li>
+              <li>elaboração de documentos consistentes com as aplicações de usuários futuras;</li>
+              <li>aumento considerável na portabilidade dos documentos Web.</li>
+            </ul>
+
+            <h2 class="col-md-9 col-sm-12 col-xs-12">Como adicionar <span class="forte">CSS</span>?</h2><br>
+            <p>Existem três maneiras de inserir <span class="forte">CSS</span>:</p>
+            <ul>
+              <li>CSS Externo</li>
+              <li>CSS Interno</li>
+              <li>CSS Inline</li>
+            </ul>
+
+            <h2 class="col-md-9 col-sm-12 col-xs-12"><span class="forte">CSS</span> Externo</h2><br>
+            <p>Cada página HTML deve incluir uma referência ao arquivo de folha de estilo externo dentro do elemento &lt;link>, dentro da seção head.</p>
+            <div class="">
+              <h3>Exemplo</h3>
+              <span>&lt;!DOCTYPE html></span><br>
+              <span>&lt;html></span><br>
+              <span>&lt;head></span><br>
+              <span>&lt;link rel="stylesheet" type="text/css" href="style.css"></span><br>
+              <span>&lt;/head></span><br>
+              <span>&lt;body></span><br><br>
+
+              <span>&lt;/body></span>
+              <span>&lt;/html></span>
+            </div><br>
+            <p>Uma folha de estilo externa pode ser escrita em qualquer editor de texto e deve ser salva com uma extensão .css.</p>
+            <p>O arquivo .css externo não deve conter nenhuma tag HTML.</p>
+
+
+            <h2 class="col-md-9 col-sm-12 col-xs-12"><span class="forte">CSS</span> Interno</h2><br>
+            <p>Uma folha de estilo interna pode ser usada se uma única página HTML tiver um estilo exclusivo.</p>
+            <p>O estilo interno é definido dentro do elemento &lt;style>, dentro da seção head.</p>
+
+
+            <h2 class="col-md-9 col-sm-12 col-xs-12"><span class="forte">CSS</span> Inline</h2><br>
+            <p>Um estilo embutido pode ser usado para aplicar um estilo único a um único elemento.</p>
+            <p>Para usar estilos embutidos, adicione o atributo de estilo ao elemento relevante. O atributo style pode conter qualquer propriedade CSS.</p>
+
+
+
+
+
+
+
+
+            <h2 class="col-md-9 col-sm-12 col-xs-12">Qual a maneira mais rápida de aprender <span class="forte">CSS</span>?</h2><br>
+            <p>Se você souber ou vier a descobrir no futuro, por favor informe para eu colocar aqui!</p>
+            <p>Esperamos que ele seja útil para agilizar seu aprendizado de CSS e lhe sirva de uma referência para futuras consultas.</P>
+            <p>TODO aprendizado requer ESTUDO e prática.</p>
+
+          </section>
+		  <div class="liga-desliga">
+			<button class="btn btn-dark" onclick="mudar()">Filtro cinza</button>
+			<button class="btn btn-success" onclick="normal()">colorido</button>
+		</div>
+
+          <footer class="pt-5 mb-1">
+            <div class="card text-center">
+              <div class="card-body container-fluid">
+                <h5 class="card-title">Copyright &copy; 2020 - Todos os direitos reservados -  </h5>
+                <p class="card-text col-md-12 col-sm-12 col-xs-12"><a href="#">Giovanni Laner</a>
+                </p>
+                <ul>
+                 <li>Siga-nos nas Redes sociais:</li>
+                  <li><a href="#"><img src="img/facebook.png" alt="facebook"></a></li>
+                  <li><a href="#"><img src="img/linkedin.png" alt="linkedin"></a></li>
+                  <li><a href="#"><img src="img/twitter.png" alt="twitter"></a></li>
+                </ul>
+              </div>
+            </div>
+          </footer>
+    </main>
+</body>
+</html>

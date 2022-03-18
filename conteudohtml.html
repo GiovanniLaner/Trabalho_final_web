@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="trabalhano com html para devs iniciantes tags HTML, css e javascript e propriedades">
+        <meta name="author" content="Giovanni - giovanniblaner@gmail.com, George Peralta - lucas.peralta15@gmail.com,
+         Ramon - mocellinramon@gmail.com, Daniel - danielalcantara20683@gmail.com">
+        <meta name="keywords" content="HTML, CSS, web-design, Dev, tags">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="sortcut icon" type="image/x-icon" href="img/favicon.ico">
+        <title>pagina de ajuda para devs que estao iniciando tags HTML, css e javascript</title>
+
+        <!-- esse nao ta lincado mas funciona igualmente pelo link bootstrap 4.5  -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+        <!-- resolvi lincar pra dar pra visualizar pelo cell  -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+		<script src="js/script.js"></script>
+    </head>
+<body id="galeria">
+			<!-- container geral -->
+    <main class="geral container-fluid">
+        <header class="jumbotron mb-0 mt-1 container-fluid">
+            <img src="img/logo.png" alt="logo do dev aprendiz">
+        </header>
+        <!-- fim do header  -->
+
+        <!-- inicio do nav  -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Welcome</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link active" href="conteudohtml.html">HTML</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pagcss.html">CSS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="galeria.html">Galeria.html</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <!-- fim do nav  -->
+
+
+          <section class="todoconteudo container mt-5">
+            <h1 class="mb-5">O que são <span class="forte">TAGS HTML</span> E PARA QUE ELAS SERVEM.</h1>
+			<!-- cabecalho do conteudo -->
+            <article class="container-fluid">
+
+              <div class="col-md-12 col-sm-12 col-xs-12">
+
+              <h3 class="col-md-12 col-sm-12 col-xs-12 mb-5">
+                Como um dev iniciante você já deve aprnder da maneira mais simples correta possivel
+                para que não se confunda durante sua trajetoria.
+              </h3>
+                </div>
+                <div class="artigo mt-4">
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<figure><img class="logohtml" src="img/th.jpg" alt="logo do html"></figure>
+					</div>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+
+                  <h3 class="text-center">Conheça o <span class="forte">HTML</span></h3>
+
+                <p class="mt-5">
+                  O que a maioria pensa no começo e que programar e dificil tenho uma excelente noticia para você<span class="forte">
+                  Html e uma linguagem de marcação</span> ou seja nao se programa em <span class="forte"> html</span> apenas marcamos
+                  o conteudo para que não fique solto tornando assim muito mais facil formatar pelo <span class="forte">CSS</span>
+                </p>
+              </div>
+            </div>
+            </article>
+			<!-- inicio do conteudo html -->
+            <article class="container-fluid">
+              <h2><span class="forte">TAGS</span> Marcação de texto
+              </h2>
+                <h3>Titulos</h3>
+                <p>titulos geralmente variam do nivel h1 ao h6 sendo 1 o mais forte o principal e 1 o mais fraco apenas para da um pouco mais de relevancia</p>
+                  <h1>titulo de nivel 1</h1><!-- entenda que e obrigatorio essa tag mesmo nao sendo indicada nao tem o que fazer precisomostrar a diferenca -->
+                  <h2>titulo de nivel 2</h2>
+                  <h3>titulo de nivel 3</h3>
+                  <h4 class="titulos">titulo de nivel 4</h4>
+                  <h5 class="titulos">titulo de nivel 5</h5>
+                  <h6 class="titulos">titulo de nivel 6</h6>
+                <h3>a tag <span class="forte">&lt;p> &lt;/p></span> indica um paragrafo que no caso e equivalente a um enter</h3>
+                <p>usamos quando queremos dar um espaçamento entre caixas de texto ou para quebrar a linha essa e sem duvida a tag mais importante do html quando o assunto e texto</p>
+                <h3>&lt;--criar comentario--></h3>
+                <p>Cria um comentario</p>
+                <h3>&lt;html> &lt;/html></h3>
+                <p>envolve todo o documento </p>
+                <h3>&lt;head> &lt;/head></h3>
+                <p>identifica o cabeçalho essa parte não e visivel ao publico apenas para o navegador</p>
+				<h3>&lt;meta></h3>
+                <p>fornece informações gerais sobre o documento para o navegador </p>
+				<h3>&lt;style type="text/css"> &lt;/style></h3>
+                <p>permite usar o seu css na pagina html </p>
+				<h3>&lt;script type="text/javaScript"> &lt;/script></h3>
+                <p>permite que use programação java Script dentro do documento html </p>
+				<h3>&lt;title> &lt;/title></h3>
+                <p>titulo do documento</p>
+				<h2>Agora começaremos a tabalhar com o corpo da pagina e todo o conteudo visivel</h2>
+				<h3>&lt;body> &lt;/body></h3>
+                <p>envolve todo o corpo do documento</p>
+				<h3>&lt;a href="caminho do link"> &lt;/a></h3>
+                <p>links </p>
+				<h3>&lt;ol> &lt;/ol></h3>
+                <p>lista ordenada </p>
+					<ol><li>a</li></ol>
+					<ol><li>b</li></ol>
+
+				<h3>&lt;ul> &lt;/ul></h3>
+                <p>lista  não ordenada</p>
+					<ul><li>a</li></ul>
+					<ul><li>b</li></ul>
+
+				<h3>&lt;li> &lt;/li></h3>
+                <p>item da lista</p>
+				<h3>&lt;nav> &lt;/nav></h3>
+                <p>menu de navegação</p>
+				<h3>&lt;strong> &lt;/strong></h3>
+                <p>deixa o trecho em negrito</p>
+				<h3>&lt;span> &lt;/span></h3>
+                <p>seleciona uma parte do texto</p>
+				<h3>&lt;u> &lt;/u></h3>
+                <p><u>deixa o texto sublinhado</u></p>
+				<h3>&lt;hr></h3>
+                <p>deixa uma linha horizontal<br></p>
+				<hr>
+				<h3>&lt;br></h3>
+                <p>quebra a <br>linha</p>
+				<h3>&lt;div> &lt;/div></h3>
+                <p>cria uma caixa para preencher com conteudo e depois alinhar mais facilmente</p><div style="background-color:red; width:50px; height:50px;text-align:center;">Olá</div>
+                <h3>&lt;address> &lt;/address></h3>
+                <address>Daniel Rodrigues</address>
+				<h3>&lt;img src="caminho da imagem" alt="descreva a imagem aqui"></h3>
+                <p>insere um imagem</p>
+				<h2>Tabelas</h2>
+				<h3>&lt;table> &lt;/table></h3>
+                <p>cria uma tabela</p>
+				<h3>&lt;tr> &lt;/tr></h3>
+                <p>insere uma linha na tabela</p>
+				<h3>&lt;th> &lt;/th></h3>
+                <p>um cabeçalho de linha na tabela</p>
+				<h3>&lt;td> &lt;/ltd></h3>
+                <p>define uma celula de dados na tabela</p>
+				<h2>Formularios</h2>
+				<h3>&lt;form method="# post ou get"> &lt;/form></h3>
+                <p>cria um formulario</p>
+				<h3>&lt;input></h3>
+                <p>caixinha de texto</p>
+				<ul>
+					<li>type – Tipo de dado: text, file, radio, checkbox, hidden, password, submit, reset, button, image</li>
+					<li>name – Identificação do campo</li>
+					<li>size – Largura</li>
+					<li>maxlength – Número máximo de caracteres permitidos</li>
+					<li>value – Texto que aparece dentro da caixa ou nome do botão</li>
+					<li>checked value – Valor assumido quando este campo for selecionado</li>
+				</ul>
+				<h3>&lt;textarea>&lt;/textarea></h3>
+				<p>Permite criar elementos de entrada com características de texto</p>
+				<ul>
+					<li>rows – Tamanho da linha da caixa de texto</li>
+					<li>cols – Tamanho da coluna da caixa de texto</li>
+					<li>name – Identificação do campo</li>
+					<li>wrap – Quebra de linha da caixa de texto: off, virtual, physical</li>
+				</ul>
+				<h3>&lt;select name="nome">&lt;/select></h3>
+				<p>cria um campo de seleção</p>
+				<h3>&lt;option>&lt;/option></h3>
+				<p>opção do campo de seleção</p>
+				&lt;select name="select"><br>
+					&lt;option value="opção"> &lt;/option><br>
+				&lt;/select><br>
+				<select name="select">
+		           <option value="opcao">opção</option>
+
+	            </select>
+            </article>
+          </section>
+		  <!-- fim do seection -->
+
+		  <!-- botoes de acessibilidade -->
+		  <div class="liga-desliga mt-5">
+				<button class="btn btn-dark" onclick="mudar()">Filtro cinza</button>
+				<button class="btn btn-success" onclick="normal()">colorido</button>
+		  </div>
+		  <!-- fim dos botoes -->
+			<!-- inicio do rodape padrao de todo o site-->
+          <footer class="pt-5 mb-1">
+            <div class="card text-center">
+              <div class="card-body container-fluid">
+                <h5 class="card-title">Copyright &copy; 2020 - Todos os direitos reservados -  </h5>
+                <p class="card-text col-md-12 col-sm-12 col-xs-12"><a href="#">Giovanni Laner</a>
+                </p>
+                <ul>
+                  <li>Siga nas Redes sociais:</li>
+                  <li><a href="#"><img src="img/facebook.png" alt="facebook"></a></li>
+                  <li><a href="#"><img src="img/linkedin.png" alt="linkedin"></a></li>
+                  <li><a href="#"><img src="img/twitter.png" alt="twitter"></a></li>
+                </ul>
+              </div>
+            </div>
+          </footer>
+		  <!-- fim do rodape -->
+    </main>
+</body>
+</html>
